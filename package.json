@@ -1,6 +1,6 @@
 {
   "name": "temperment",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get a random temporary file or directory path that will delete itself",
   "main": "index.js",
   "repository": "https://github.com/jamiebuilds/temperment",
