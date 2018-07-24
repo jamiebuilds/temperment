@@ -1,0 +1,52 @@
+{
+  "name": "temperment",
+  "version": "0.0.0",
+  "description": "Get a random temporary file or directory path that will delete itself",
+  "main": "index.js",
+  "repository": "https://github.com/jamiebuilds/temperment",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "tempy",
+    "temp",
+    "tmp",
+    "temporary",
+    "path",
+    "file",
+    "directory",
+    "dir",
+    "folder",
+    "tempfile",
+    "tempdir",
+    "tmpfile",
+    "tmpdir",
+    "random",
+    "rand",
+    "unique",
+    "uniq",
+    "delete",
+    "remove",
+    "automatic",
+    "auto",
+    "autodelete",
+    "trash",
+    "clean",
+    "cleanup"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "flow-bin": "^0.77.0",
+    "path-exists": "^3.0.0"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "signal-exit": "^3.0.2",
+    "tempy": "^0.2.1"
+  }
+}
